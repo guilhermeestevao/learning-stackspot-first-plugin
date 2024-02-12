@@ -1,0 +1,19 @@
+schema-version: v2
+kind: manifest
+spec:
+  type: app
+  plugins:
+    - name: local/firstplugin@0.0.1
+      alias: firstplugin-1707770371912
+      type: app
+      inputs:
+        resource: Teste
+        method: GET
+      inputs-envs: {}
+      connections:
+        generates: []
+        requires: []
+      links:
+        generates: []
+  global-inputs: {}
+  global-computed-inputs: {}
